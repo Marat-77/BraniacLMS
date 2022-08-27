@@ -11,7 +11,5 @@ def email_to_link(value):
 
 @register.filter
 def phone_to_link(value):
-    return mark_safe(f'<a href="tel:{value}">{value}</a>')
-
-
-# <a href="tel:+79070700777" class="phone_list_link">+7-907-070-0777</a>
+    value2 = f'{value[:2]}-{value[2:5]}-{value[5:8]}-{value[8:]}'
+    return mark_safe(f'<a href="tel:{value}">{value2}</a>')
