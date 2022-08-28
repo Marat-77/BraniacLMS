@@ -1,0 +1,91 @@
+[
+    {
+        "news_title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "news_preview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris feugiat, nisi a efficitur placerat, sem ipsum feugiat enim, ac scelerisque sem risus et ipsum. Integer at justo at eros euismod congue.",
+        "news_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris feugiat, nisi a efficitur placerat, sem ipsum feugiat enim, ac scelerisque sem risus et ipsum. Integer at justo at eros euismod congue. Duis scelerisque pharetra ipsum ac semper. Curabitur luctus nibh a nisl elementum, vitae porttitor ligula pellentesque. Vestibulum viverra eget felis venenatis tincidunt. Nam vitae dignissim enim. Suspendisse scelerisque blandit quam eu pretium. Sed cursus tortor ullamcorper ipsum viverra, sed aliquam urna cursus. Aliquam condimentum vulputate lectus et hendrerit. Donec consectetur urna id auctor tempor. Cras tortor nisi, tempor sit amet enim eu, consequat rutrum turpis. Fusce mattis ac neque eget iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent ut auctor ligula, a pellentesque arcu. Nullam massa ligula, bibendum non nisl sed, sagittis porta nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.Nunc vehicula in urna sit amet laoreet. Cras eleifend dolor vel elit consectetur, id pretium massa porttitor. Proin tempor nibh ut arcu posuere convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin eu pharetra libero, non blandit neque. Fusce elementum tincidunt tellus quis vulputate. Vivamus finibus, risus at feugiat fermentum, velit mi posuere libero, et hendrerit justo ipsum sit amet tortor. Integer sit amet elit lorem. Proin a leo rhoncus, dictum sapien quis, molestie erat. Suspendisse congue sodales nisi, non lobortis ante. Cras sit amet lectus cursus quam finibus volutpat at at nisi. Vestibulum luctus, quam nec fermentum molestie, leo nulla auctor metus, at egestas tellus enim in nunc. Suspendisse tincidunt eleifend tortor, vehicula fringilla nisi laoreet ac. Maecenas eu magna porttitor, pellentesque neque sit amet, elementum nibh. Sed volutpat risus eu ex facilisis, sit amet hendrerit leo cursus."
+    },
+
+    {
+        "news_title": "Suspendisse vel hendrerit lectus, id aliquam augue",
+        "news_preview": "Suspendisse vel hendrerit lectus, id aliquam augue. Sed auctor eget elit sit amet congue. Nullam eget luctus tortor, quis convallis erat. Duis ut quam odio.",
+        "news_text": "Suspendisse vel hendrerit lectus, id aliquam augue. Sed auctor eget elit sit amet congue. Nullam eget luctus tortor, quis convallis erat. Duis ut quam odio. Aliquam maximus commodo nisl, et ornare elit sodales sit amet. Aenean a aliquam quam, at malesuada ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra, nibh vitae auctor feugiat, leo tortor tempor diam, eget gravida tortor diam id purus. Vestibulum porttitor non purus at convallis. Fusce et tempus nunc. Praesent eget mi non ex imperdiet fringilla. Vivamus lobortis, neque at mollis gravida, est arcu molestie augue, in euismod risus neque mattis lectus. Donec aliquet ac nisi eu ultrices. Suspendisse pretium nunc eleifend, convallis sem quis, pellentesque neque."
+    },
+
+    {
+        "news_title": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas",
+        "news_preview": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus interdum vel urna vel dictum. Donec vel augue leo.",
+        "news_text": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus interdum vel urna vel dictum. Donec vel augue leo. Integer faucibus id risus eu ultricies. Sed in leo eu eros porta feugiat eu vel turpis. Curabitur quis dictum felis. Cras porta magna pharetra turpis fringilla accumsan. Nullam cursus dictum mi, et iaculis ex pharetra non. Vestibulum tincidunt mollis metus et vehicula. Maecenas porttitor a metus et eleifend. Aliquam ullamcorper nunc ut odio dictum sodales. In porta vel lorem eu efficitur. Proin felis justo, lacinia eget mauris quis, suscipit ullamcorper purus."
+    },
+
+    {
+        "news_title": "Ut non vulputate leo. Nunc suscipit orci est, non eleifend purus auctor eget",
+        "news_preview": "Ut non vulputate leo. Nunc suscipit orci est, non eleifend purus auctor eget. Integer maximus viverra mi, nec fringilla turpis eleifend sed. Vivamus tristique quam dignissim eros semper, id blandit velit vulputate.",
+        "news_text": "Ut non vulputate leo. Nunc suscipit orci est, non eleifend purus auctor eget. Integer maximus viverra mi, nec fringilla turpis eleifend sed. Vivamus tristique quam dignissim eros semper, id blandit velit vulputate. Phasellus dolor tortor, mattis vitae tristique vel, blandit non diam. Vivamus ut aliquet tellus. Sed efficitur pellentesque nunc eget pulvinar. Nulla porta lorem purus, ut sodales odio malesuada in. Quisque lacinia ultricies mauris, id volutpat risus aliquam suscipit. Vivamus laoreet suscipit sagittis. Cras pharetra, tortor id commodo cursus, nibh augue venenatis felis, id mollis ipsum turpis quis risus. Morbi non arcu ac ex fermentum accumsan in quis sem. Nulla sodales est ut urna accumsan semper. Cras vehicula a dui a lobortis."
+    },
+
+    {
+        "news_title": "Sed aliquam blandit neque, vulputate venenatis urna sodales at",
+        "news_preview": "Sed aliquam blandit neque, vulputate venenatis urna sodales at. Suspendisse vehicula dictum turpis, eu feugiat diam molestie vel. Donec varius nisl ac arcu congue, in commodo tellus ultricies..",
+        "news_text": "Sed aliquam blandit neque, vulputate venenatis urna sodales at. Suspendisse vehicula dictum turpis, eu feugiat diam molestie vel. Donec varius nisl ac arcu congue, in commodo tellus ultricies. Praesent consectetur ex at turpis egestas feugiat. Maecenas finibus, purus nec dictum volutpat, est magna elementum velit, at pretium nibh risus nec arcu. Proin luctus orci metus, et suscipit libero viverra vel. Quisque laoreet nulla quis est consectetur porta. Duis eget odio metus. Etiam aliquam, neque quis maximus sagittis, eros turpis porttitor nulla, vel gravida velit orci eu sapien."
+    },
+
+    {
+        "news_title": "Phasellus feugiat, neque et malesuada pretium, nisl nisi bibendum massa, non dapibus eros orci sed mauris",
+        "news_preview": "Phasellus feugiat, neque et malesuada pretium, nisl nisi bibendum massa, non dapibus eros orci sed mauris. Cras malesuada augue a dui maximus condimentum. Etiam feugiat velit vel est dignissim, vel ullamcorper ligula euismod.",
+        "news_text": "Phasellus feugiat, neque et malesuada pretium, nisl nisi bibendum massa, non dapibus eros orci sed mauris. Cras malesuada augue a dui maximus condimentum. Etiam feugiat velit vel est dignissim, vel ullamcorper ligula euismod. Cras hendrerit tincidunt lacus, eget ornare metus sollicitudin eget. Morbi ac dignissim risus. Quisque sit amet sapien tristique purus pharetra vulputate. Quisque mattis ut magna eget posuere. Donec blandit elit in lectus rutrum ornare. Integer ac neque leo. Duis ultrices magna eu nulla viverra ultricies. Ut est lectus, mollis vitae tincidunt sit amet, varius sed massa."
+    },
+
+    {
+        "news_title": "In suscipit mi suscipit, dictum felis at, accumsan ex",
+        "news_preview": "In suscipit mi suscipit, dictum felis at, accumsan ex. Etiam id vehicula risus. Nunc in nulla fringilla, accumsan ex eget, ultrices diam. Mauris et venenatis urna, et iaculis lorem. Morbi nec quam pretium, volutpat leo nec, interdum augue.",
+        "news_text": "In suscipit mi suscipit, dictum felis at, accumsan ex. Etiam id vehicula risus. Nunc in nulla fringilla, accumsan ex eget, ultrices diam. Mauris et venenatis urna, et iaculis lorem. Morbi nec quam pretium, volutpat leo nec, interdum augue. Integer sed lobortis nisl. Suspendisse nulla magna, accumsan sit amet arcu in, lobortis mattis velit. Integer sed augue eu nunc vehicula dignissim. Suspendisse vel nibh vehicula, vehicula lectus ut, gravida urna. Donec facilisis nisl sit amet diam aliquam, nec vulputate libero auctor. Proin dignissim ultrices libero. Pellentesque ac mauris volutpat, accumsan turpis molestie, semper dolor."
+    },
+
+    {
+        "news_title": "In tincidunt, enim sit amet sodales tempus, ex dolor iaculis turpis, sit amet ultricies enim ante nec massa",
+        "news_preview": "In tincidunt, enim sit amet sodales tempus, ex dolor iaculis turpis, sit amet ultricies enim ante nec massa. Sed a nisi accumsan, venenatis dui tristique, placerat urna. Nam ut volutpat magna.",
+        "news_text": "In tincidunt, enim sit amet sodales tempus, ex dolor iaculis turpis, sit amet ultricies enim ante nec massa. Sed a nisi accumsan, venenatis dui tristique, placerat urna. Nam ut volutpat magna. Nulla tristique orci ligula, a varius ligula hendrerit quis. Etiam non lobortis leo. Donec pulvinar consectetur ipsum ac tincidunt. Praesent bibendum quam nec eros iaculis tristique. Nunc sodales sagittis rutrum. Phasellus vel luctus erat. Phasellus quis nisi dolor. Ut ut volutpat eros. Donec ac ante id tortor varius euismod. Donec porta eleifend purus ac feugiat. Quisque commodo augue non tincidunt varius. Sed libero ipsum, viverra a tortor non, euismod congue sapien. Ut id dictum massa, ac bibendum enim."
+    },
+
+    {
+        "news_title": "Etiam fermentum eros lacus, imperdiet pharetra lacus condimentum ac",
+        "news_preview": "Etiam fermentum eros lacus, imperdiet pharetra lacus condimentum ac. Proin molestie eu diam id hendrerit. Nam non leo vel turpis sollicitudin vehicula et sed nulla. Morbi efficitur orci eget arcu facilisis, ullamcorper dapibus quam condimentum.",
+        "news_text": "Etiam fermentum eros lacus, imperdiet pharetra lacus condimentum ac. Proin molestie eu diam id hendrerit. Nam non leo vel turpis sollicitudin vehicula et sed nulla. Morbi efficitur orci eget arcu facilisis, ullamcorper dapibus quam condimentum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse neque nulla, efficitur quis justo id, lacinia commodo purus. Aliquam nunc ligula, pharetra in vestibulum id, vestibulum vel leo. Phasellus ac erat laoreet lectus tincidunt auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus magna dui, pellentesque ut tortor vel, bibendum dictum elit. Donec eget finibus ante. Suspendisse egestas arcu sit amet velit interdum, vel eleifend nibh molestie. Curabitur dolor est, maximus in nulla sit amet, tristique semper ante."
+    },
+
+    {
+        "news_title": "Proin quis libero et lacus sodales euismod vel sed ligula",
+        "news_preview": "Proin quis libero et lacus sodales euismod vel sed ligula. In tristique a neque in lacinia. Donec lacinia pellentesque nibh ac tincidunt. Nunc vitae magna ligula. Donec nec imperdiet tortor. Suspendisse sollicitudin arcu ac pellentesque semper.",
+        "news_text": "Proin quis libero et lacus sodales euismod vel sed ligula. In tristique a neque in lacinia. Donec lacinia pellentesque nibh ac tincidunt. Nunc vitae magna ligula. Donec nec imperdiet tortor. Suspendisse sollicitudin arcu ac pellentesque semper. Nulla iaculis in orci nec tempus. Morbi vel tempus lacus. Nullam gravida dui in pharetra tincidunt. Nullam quis vestibulum sem. Ut scelerisque elit eget mauris pulvinar, at placerat metus tempus."
+    },
+
+    {
+        "news_title": "Duis scelerisque ipsum urna. Cras a tincidunt mi",
+        "news_preview": "Duis scelerisque ipsum urna. Cras a tincidunt mi. Pellentesque tristique eleifend ligula ut posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "news_text": "Duis scelerisque ipsum urna. Cras a tincidunt mi. Pellentesque tristique eleifend ligula ut posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Vivamus ac quam cursus, posuere nisi ut, interdum risus. Aliquam id lacinia tellus, id congue ex. Phasellus nisl diam, lobortis vitae semper accumsan, luctus ac nibh. Proin ullamcorper volutpat dui at semper."
+    },
+
+    {
+        "news_title": "Praesent interdum ligula id urna fringilla semper",
+        "news_preview": "Praesent interdum ligula id urna fringilla semper. Nam consequat sagittis leo id aliquet. Nam imperdiet molestie lorem, quis rutrum lorem egestas a. Proin ut justo varius, varius nulla sit amet, ullamcorper justo.",
+        "news_text": "Praesent interdum ligula id urna fringilla semper. Nam consequat sagittis leo id aliquet. Nam imperdiet molestie lorem, quis rutrum lorem egestas a. Proin ut justo varius, varius nulla sit amet, ullamcorper justo. Maecenas arcu velit, feugiat id rutrum vel, interdum a quam. Aliquam feugiat mi eu erat aliquet facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquam eu augue eget luctus. In facilisis quis mauris ac ullamcorper. Aliquam non vehicula felis. Integer tristique ut mauris non maximus. Donec sit amet ante a ex tempor pretium. Vestibulum id consectetur purus. Vestibulum eu tincidunt mi."
+    },
+
+    {
+        "news_title": "In tincidunt est nec feugiat auctor",
+        "news_preview": "In tincidunt est nec feugiat auctor. Aenean a facilisis turpis. Curabitur nec nisl a ligula lacinia finibus nec at sapien. Curabitur tincidunt mauris id erat aliquam dictum. Suspendisse potenti.",
+        "news_text": "In tincidunt est nec feugiat auctor. Aenean a facilisis turpis. Curabitur nec nisl a ligula lacinia finibus nec at sapien. Curabitur tincidunt mauris id erat aliquam dictum. Suspendisse potenti. Sed eleifend lacus quis lectus fringilla suscipit. Sed lectus dolor, interdum et felis et, dignissim finibus nisl."
+    },
+
+    {
+        "news_title": "Cras vel ex libero",
+        "news_preview": "Cras vel ex libero. Phasellus egestas tellus quam, non vulputate magna mattis ullamcorper. Donec laoreet purus enim, ac egestas augue euismod nec. Suspendisse eu quam ultricies, vestibulum enim dapibus, vulputate ligula.",
+        "news_text": "Cras vel ex libero. Phasellus egestas tellus quam, non vulputate magna mattis ullamcorper. Donec laoreet purus enim, ac egestas augue euismod nec. Suspendisse eu quam ultricies, vestibulum enim dapibus, vulputate ligula. Vivamus id sapien sed lorem sagittis fermentum. Ut ac varius nibh. Morbi lobortis mattis nunc eu maximus. Nulla sagittis tortor libero, a interdum sem tempor in. Morbi id lobortis augue. Praesent id mi quis lectus faucibus aliquam. Praesent convallis elementum porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam vitae feugiat magna. Duis rhoncus eget orci eu accumsan."
+    },
+
+    {
+        "news_title": "Suspendisseugue",
+        "news_preview": "Suspendissugue",
+        "news_text": "Suspendiugue"
+    }
+]
