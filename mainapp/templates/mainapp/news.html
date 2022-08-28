@@ -15,7 +15,10 @@
     <div class="row">
 
       <div class="col-lg-8">
+        {# однострочный комментарий #}
 
+        {% comment %}
+        блок-комментарий
         {% for i in double_range %}
           <div class="card my-2">
             <div class="card-body">
@@ -24,6 +27,22 @@
                 {{ datetime_obj|date:"d.m.Y h:i:s" }}
               </h6>
               <p class="card-text">{{ news_preview }}</p>
+              <a href="#" class="card-link">Подробнее</a>
+            </div>
+          </div>
+        {% endfor %}
+        {% endcomment %}
+
+        {# чтение новостей из json #}
+        {# added load news from json-file #}
+        {% for i in news %}
+          <div class="card my-2">
+            <div class="card-body">
+              <h5 class="card-title">{{ i.news_title }}</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                {{ datetime_obj|date:"d.m.Y h:i:s" }}
+              </h6>
+              <p class="card-text">{{ i.news_preview }}</p>
               <a href="#" class="card-link">Подробнее</a>
             </div>
           </div>
