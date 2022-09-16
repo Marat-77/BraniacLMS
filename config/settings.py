@@ -9,8 +9,10 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-
+import os  # работа с файловой системой
 from pathlib import Path
+
+from dotenv import load_dotenv  # загрузка информации из ".env"-файла
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -38,7 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'markdownify.apps.MarkdownifyConfig',
+    'social_django',
     'mainapp',
+    'authapp',
 ]
 
 MIDDLEWARE = [
@@ -64,9 +68,12 @@ TEMPLATES = [
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
+                'django.template.context_processors.media',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'mainapp.context_processors.example.simple_context_processor',
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect',
             ],
         },
     },
@@ -104,6 +111,23 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# new default model for user
+AUTH_USER_MODEL = 'authapp.CustomUser'
+
+# ##################################
+AUTHENTICATION_BACKENDS = (
+    "social_core.backends.github.GithubOAuth2",
+    "django.contrib.auth.backends.ModelBackend",
+)
+
+# *******************************************
+# загрузка информации из ".env"-файла
+load_dotenv()
+
+# получение ключей из файла .env
+SOCIAL_AUTH_GITHUB_KEY = os.getenv('github_id')
+SOCIAL_AUTH_GITHUB_SECRET = os.getenv('github_secret')
+# *******************************************
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
@@ -132,3 +156,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
 ]
+
+# Media files
+MEDIA_URL = "/media/"
+
+MEDIA_ROOT = BASE_DIR / "media"
+
+LOGIN_REDIRECT_URL = 'mainapp:main_page'
+LOGOUT_REDIRECT_URL = 'mainapp:main_page'
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
