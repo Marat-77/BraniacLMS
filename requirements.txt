@@ -7,3 +7,4 @@ Markdown==3.4.1
 Pillow==9.2.0
 social-auth-app-django==5.0.0
 python-dotenv==0.21.0
+django-crispy-forms==1.14.0
