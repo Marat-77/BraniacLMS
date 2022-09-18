@@ -1,5 +1,6 @@
 # Create your views here.
 import logging
+import subprocess
 
 from django.conf import settings
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin, UserPassesTestMixin
@@ -106,12 +107,18 @@ class LogView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super(LogView, self).get_context_data(**kwargs)
         log_slice = []
-        with open(settings.LOG_FILE, 'r') as log_file:
-            for i, line in enumerate(log_file):
-                if i == 1000:  # first 1000 lines
-                    break
-                log_slice.insert(0, line)  # append at start
-            context['log'] = ''.join(log_slice)
+        n = '1000'
+        proc = subprocess.Popen(['tail', '-n', n, settings.LOG_FILE], stdout=subprocess.PIPE)
+        lines = proc.stdout.readlines()
+        for line in lines:
+            log_slice.insert(0, bytes.decode(line, encoding='utf-8'))
+        context['log'] = ''.join(log_slice)
+        # with open(settings.LOG_FILE, 'r') as log_file:
+        #     for i, line in enumerate(log_file):
+        #         if i == 1000:  # first 1000 lines
+        #             break
+        #         log_slice.insert(0, line)  # append at start
+        #     context['log'] = ''.join(log_slice)
         return context
 
 
