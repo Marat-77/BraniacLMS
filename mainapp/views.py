@@ -68,7 +68,7 @@ class CoursesDetailView(TemplateView):
         logger.debug('Yet another log message')
         context = super(CoursesDetailView, self).get_context_data(**kwargs)
         context['course_object'] = get_object_or_404(mainapp_models.Courses, pk=pk)
-        context['lessons'] = mainapp_models.Lesson.objects.filter(course=context['course_object'])
+        context['lessons'] = mainapp_models.Lesson.objects.filter(course=context['course_object'], deleted=False)
         context['teachers'] = mainapp_models.CourseTeachers.objects.filter(course=context['course_object'])
         if not self.request.user.is_anonymous:
             if not mainapp_models.CourseFeedback.objects.filter(
