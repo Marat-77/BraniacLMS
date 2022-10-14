@@ -56,6 +56,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -125,8 +126,8 @@ AUTH_USER_MODEL = 'authapp.CustomUser'
 
 # ##################################
 AUTHENTICATION_BACKENDS = (
-    "social_core.backends.github.GithubOAuth2",
-    "django.contrib.auth.backends.ModelBackend",
+    'social_core.backends.github.GithubOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
 )
 
 # *******************************************
@@ -167,9 +168,9 @@ STATICFILES_DIRS = [
 ]
 
 # Media files
-MEDIA_URL = "/media/"
+MEDIA_URL = '/media/'
 
-MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_ROOT = BASE_DIR / 'media'
 
 LOGIN_REDIRECT_URL = 'mainapp:main_page'
 LOGOUT_REDIRECT_URL = 'mainapp:main_page'
@@ -205,17 +206,17 @@ LOGGING = {
 }
 
 CACHES = {
-    "default": {
-        "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://192.168.2.230:7001",
-        "OPTIONS": {
-            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+    'default': {
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': 'redis://192.168.2.230:7001',
+        'OPTIONS': {
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient',
         },
     }
 }
 
-CELERY_BROKER_URL = "redis://192.168.2.230:7001"
-CELERY_RESULT_BACKEND = "redis://192.168.2.230:7001"
+CELERY_BROKER_URL = 'redis://192.168.2.230:7001'
+CELERY_RESULT_BACKEND = 'redis://192.168.2.230:7001'
 
 
 # Read about sending email:
@@ -223,16 +224,20 @@ CELERY_RESULT_BACKEND = "redis://192.168.2.230:7001"
 
 # Full list of email settings:
 #   https://docs.djangoproject.com/en/3.2/ref/settings/#email
-# EMAIL_HOST = "localhost"
-# EMAIL_PORT = "25"
+# EMAIL_HOST = 'localhost'
+# EMAIL_PORT = '25'
 
 # For debugging: python -m smtpd -n -c DebuggingServer localhost:25
-# EMAIL_HOST_USER = "django@geekshop.local"
-# EMAIL_HOST_PASSWORD = "geekshop"
+# EMAIL_HOST_USER = 'django@geekshop.local'
+# EMAIL_HOST_PASSWORD = 'geekshop'
 # EMAIL_USE_SSL = False
 # If server support TLS:
 # EMAIL_USE_TLS = True
 
 # Email as files for debug
-EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
-EMAIL_FILE_PATH = "var/email-messages/"
+EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
+EMAIL_FILE_PATH = 'var/email-messages/'
+
+LOCALE_PATHS = [BASE_DIR / 'locale']
+
+SELENIUM_DRIVER_PATH_FF = BASE_DIR / 'var' / 'selenium' / 'geckodriver'
